@@ -96,8 +96,8 @@ font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
 {
 position:relative;
 text-align:left;
-top:26px;
-left:200px;
+top:12px;
+left:22px;
 font-size:14px;
 color:#25060B;
 font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
@@ -114,16 +114,14 @@ padding-bottom:20px;
 
 .contentBox .innerBox
 {
-	margin-left:10px;
-	position:relative;
-	width:650px;
-	height:auto;
-	top:10px;
-	background-image:url(contentBack.png);
-	background-color:#FFFFFF;
-	background-repeat:repeat-x;
-	left: 334px;
-
+margin-left:10px;
+position:relative;
+width:650px;
+height:auto;
+top:10px;
+background-image:url(contentBack.png);
+background-color:#FFFFFF;
+background-repeat:repeat-x;
 }
 
 h1
@@ -197,14 +195,6 @@ blockquote {
 html, body {
 text-align: center;
 }
-p {
-	text-align: center;
-	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
-	font-size: 24px;
-	color: #734503;
-	font-style: normal;
-	font-weight: bold;
-}
-#anuncio {
-	float: right;
-}
+p {text-align: left;}
+
+
