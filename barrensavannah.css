@@ -195,11 +195,6 @@ blockquote {
 html, body {
 text-align: center;
 }
-p {
-	text-align: left;
-	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
-	font-size: 18px;
-	color: #860B0D;
-	font-style: normal;
-	font-weight: bold;
-}
+p {text-align: left;}
+
+
