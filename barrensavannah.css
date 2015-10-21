@@ -13,8 +13,7 @@ body {
 }
 *
 {
-  margin: 0 auto 0 auto;
- text-align:left;
+	margin: 0 auto 0 auto;
 }
 
 #page
@@ -53,14 +52,15 @@ border-bottom:dashed 1px;
 
 .topNaviagationLink a:hover
 {
-text-align:center;
-color:#FFFFFF;
-display: block;
-width:121px;
-height: 35px;
-line-height: 35px;
-background-image:url(tab.png);
-border-bottom:none;
+	text-align: center;
+	color: #FFFFFF;
+	display: block;
+	width: 121px;
+	height: 35px;
+	line-height: 35px;
+	background-image: url(tab.png);
+	border-bottom: none;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 }
 
 #mainPicture
@@ -84,13 +84,13 @@ background-repeat:no-repeat;
 
 #headerTitle
 {
-position:relative;
-text-align:left;
-top:14px;
-left:22px;
-font-size:27px;
-color:#FFFFFF;
-font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
+	position: relative;
+	text-align: left;
+	top: 14px;
+	left: 22px;
+	font-size: 27px;
+	color: #FFFFFF;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
 }
 
 #headerSubtext
@@ -129,20 +129,23 @@ padding-bottom:20px;
 
 h1
 {
-font-size:25px;
-margin-bottom:10px;
-padding-top:18px;
-margin-left:15px;
-margin-top:15px;
-color:#1F1603;
+	font-size: 28px;
+	margin-bottom: 10px;
+	padding-top: 18px;
+	margin-left: 15px;
+	margin-top: 15px;
+	color: #1F1603;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	text-align: center;
 }
 
 .contentText
 {
-	font-size: 13px;
+	font-size: 18px;
 	line-height: 24px;
 	margin-right: 13px;
 	margin-left: 25px;
+	text-align: center;
 }
 
 #footer {
@@ -175,23 +178,24 @@ border-bottom:dotted 2px;
 }
 a:visited
 {
-color:#793C06;
+	color: #793C06;
+	font-size: 16px;
 
 }
 
 
 blockquote {
-	font-size:12px;
-	text-align:justify;
-	width:400px;
-	color:#000000;
-	padding:15px;
-	margin:10px;
-	font-family:Arial, Helvetica, sans-serif;
-	background-image:url(blockquote.png);
-	background-repeat:no-repeat;
-	border:dashed 1px;
-	border-color:#C87002;
+	font-size: 12px;
+	text-align: center;
+	width: auto;
+	color: #000000;
+	padding: 15px;
+	margin: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url(blockquote.png);
+	background-repeat: no-repeat;
+	border: dashed 1px;
+	border-color: #C87002;
 }
 
 
@@ -200,8 +204,8 @@ text-align: center;
 }
 p {
 	text-align: center;
-	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
-	font-size: 24px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 18px;
 	color: #734503;
 	font-style: normal;
 	font-weight: bold;
