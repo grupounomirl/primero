@@ -1,0 +1,13 @@
+git add --all
+git commit -m "alguna cosa"
+de aqui te cambias a la bracnh gh-pages para copiar tus cambios hecho en master
+git chechout gh-pages
+git merge master
+
+regresas a tu branch master
+
+git  checkout master
+
+git push origin master
+
+git push oringin gh-pages
